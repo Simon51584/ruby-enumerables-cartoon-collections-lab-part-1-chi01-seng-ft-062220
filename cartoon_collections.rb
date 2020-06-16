@@ -9,7 +9,7 @@ end
 
 def list_dwarves(array)
   array(Gimli Thorin Balin Gloin).each_with_index | item , index |
-  
+  array[item] = index 
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
