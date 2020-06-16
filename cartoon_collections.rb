@@ -1,7 +1,7 @@
 def greet_characters(array)
-  
-  array.each do | t |
-  puts t 
+  greeting = ["Hello Hoggle!", "Hello Ludo!", "Hello Sir Didymus!"]
+  array.each do | greeting |
+  puts greeting 
 end 
   # Use `each` to enumerate over the provided array
   #
