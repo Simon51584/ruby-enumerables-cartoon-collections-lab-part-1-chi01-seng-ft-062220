@@ -1,4 +1,5 @@
 def greet_characters(array)
+  
   array.each do | t |
   puts t 
 end 
